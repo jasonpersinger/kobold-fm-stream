@@ -1,0 +1,34 @@
+{
+  "id": "kobold-fm-stream",
+  "title": "Kobold.FM — 24/7 Dungeon Synth Radio",
+  "description": "Stream 24/7 underground dungeon synth, dark fantasy ambient, and tabletop soundtracks directly into your Foundry VTT campaign.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Jason Persinger / Kobold.FM",
+      "url": "https://kobold.messy.quest"
+    }
+  ],
+  "esmodules": [
+    "scripts/kobold-module.js"
+  ],
+  "styles": [
+    "styles/kobold.css"
+  ],
+  "url": "https://github.com/jasonpersinger/kobold-fm-stream",
+  "manifest": "https://github.com/jasonpersinger/kobold-fm-stream/releases/latest/download/module.json",
+  "download": "https://github.com/jasonpersinger/kobold-fm-stream/releases/latest/download/kobold-fm-stream.zip",
+  "readme": "https://github.com/jasonpersinger/kobold-fm-stream/blob/main/README.md",
+  "bugs": "https://github.com/jasonpersinger/kobold-fm-stream/issues",
+  "license": "LICENSE",
+  "media": [
+    {
+      "type": "icon",
+      "url": "assets/icon.png"
+    }
+  ]
+}

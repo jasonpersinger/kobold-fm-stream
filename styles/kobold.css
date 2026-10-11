@@ -1,0 +1,90 @@
+#kobold-radio-banner {
+  background: linear-gradient(180deg, #1d1b18 0%, #11100e 100%);
+  border: 1px solid #4a3e2e;
+  border-radius: 4px;
+  margin: 6px 4px 10px 4px;
+  padding: 8px 10px;
+  color: #d8cbb8;
+  font-family: var(--font-primary, serif);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.kobold-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #2b251e;
+  padding-bottom: 4px;
+}
+
+.kobold-title {
+  color: #e5a953;
+  letter-spacing: 0.05em;
+}
+
+.kobold-live-dot {
+  background: #39633c;
+  color: #c9f5cc;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 1px 6px;
+  border-radius: 3px;
+  letter-spacing: 0.1em;
+}
+
+.kobold-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-size: 0.85em;
+  color: #b5a995;
+  background: rgba(0,0,0,0.3);
+  padding: 3px 6px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.kobold-meta i {
+  color: #e5a953;
+}
+
+.kobold-meta marquee {
+  white-space: nowrap;
+}
+
+.kobold-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.kobold-toggle-btn {
+  background: #2a241c;
+  border: 1px solid #6b5536;
+  color: #e5a953;
+  border-radius: 4px;
+  width: 32px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.kobold-toggle-btn:hover {
+  background: #4a3e2e;
+  color: #fff;
+  border-color: #e5a953;
+}
+
+.kobold-vol-slider {
+  flex: 1;
+  height: 4px;
+  accent-color: #e5a953;
+  cursor: pointer;
+}
